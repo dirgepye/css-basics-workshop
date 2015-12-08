@@ -4,12 +4,13 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
+  font-family: Times;
 }
 
 /* NAV BAR */
 
 nav {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
     border: solid white;
     color: white;
     padding: 0.5em;
@@ -26,9 +27,47 @@ ul {
 
 li {
     list-style: none;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 8px;
+    margin: 8px;
 }
 
 a {
     text-decoration: none;
     color: white;
+    
 }
+
+/* ASIDE */
+
+
+
+.dialog-box {
+    background-color: #d2d2d2;
+    padding: 8px;
+    font-family: Times New Roman;
+}
+.dialog-box__title {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.dialog-box__content {
+    background-color: #f2f2f2;
+    margin: 0px;
+    padding: 5px;
+    
+}
+.dialog-box__close {
+    border: 2px solid white;
+    background-color: tomato;
+    width: 24px;
+    height: 24px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    
+}
+
+
+
