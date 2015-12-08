@@ -9,64 +9,101 @@ html {
 
 /* NAV BAR */
 
-nav {
-    background-color: rgba(0,0,0,0.8);
-    border: solid white;
-    color: white;
-    padding: 0.5em;
-    text-decoration: none;
-    line-height: 1;
-    position: fixed;
-    width: 100%;
-}
+/*nav {*/
+/*    background-color: rgba(0,0,0,0.8);*/
+/*    border: solid white;*/
+/*    color: white;*/
+/*    padding: 0.5em;*/
+/*    text-decoration: none;*/
+/*    line-height: 1;*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*}*/
 
-ul {
-    padding: 0;
-    margin: 0;
-}
+/*ul {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
 
-li {
-    list-style: none;
-    display: inline-block;
-    border: 1px solid white;
-    padding: 8px;
-    margin: 8px;
-}
+/*li {*/
+/*    list-style: none;*/
+/*    display: inline-block;*/
+/*    border: 1px solid white;*/
+/*    padding: 8px;*/
+/*    margin: 8px;*/
+/*}*/
 
-a {
-    text-decoration: none;
-    color: white;
+/*a {*/
+/*    text-decoration: none;*/
+/*    color: white;*/
     
-}
+/*}*/
 
 /* ASIDE */
 
 
 
-.dialog-box {
-    background-color: #d2d2d2;
-    padding: 8px;
-    font-family: Times New Roman;
-}
-.dialog-box__title {
-    margin: 0;
-    padding-bottom: 20px;
-}
-.dialog-box__content {
-    background-color: #f2f2f2;
-    margin: 0px;
-    padding: 5px;
+/*.dialog-box {*/
+/*    background-color: #d2d2d2;*/
+/*    padding: 8px;*/
+/*    font-family: Times New Roman;*/
+/*}*/
+/*.dialog-box__title {*/
+/*    margin: 0;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+/*.dialog-box__content {*/
+/*    background-color: #f2f2f2;*/
+/*    margin: 0px;*/
+/*    padding: 5px;*/
     
-}
-.dialog-box__close {
-    border: 2px solid white;
-    background-color: tomato;
-    width: 24px;
-    height: 24px;
-    position: fixed;
-    top: 5px;
-    right: 5px;
+/*}*/
+/*.dialog-box__close {*/
+/*    border: 2px solid white;*/
+/*    background-color: tomato;*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+/*    position: fixed;*/
+/*    top: 5px;*/
+/*    right: 5px;*/
     
+/*}*/
+
+/* cats */
+
+img {
+    width:100%;
+}
+
+li {
+    list-style : none;
+    padding: 12px;
+}
+
+ul {
+    padding: 0px;
+}
+
+@media screen and (min-width: 400px) {
+    .cats li {
+        width: 99%;
+    }
+}
+
+
+
+@media screen and (min-width: 550px) {
+    .cats li {
+        float:left;
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .cats li {
+        width: 33%;
+    }
 }
 
 
