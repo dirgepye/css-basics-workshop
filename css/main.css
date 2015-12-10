@@ -63,7 +63,7 @@ a {
     background-color: tomato;
     width: 24px;
     height: 24px;
-    position: fixed;
+    position: absolute;
     top: 5px;
     right: 5px;
     
